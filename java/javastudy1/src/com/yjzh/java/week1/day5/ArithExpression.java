@@ -27,7 +27,7 @@ public class ArithExpression {
     }
     public  StringBuffer toPostfix(String infix)
     {
-        Stack<String> stack = new SeqStack<String>(infix.length());
+        Stack<String> stack = new qStack<String>(infix.length());
         StringBuffer postfix = new StringBuffer(infix.length()*2);
         int i = 0;
         while (i < infix.length())
