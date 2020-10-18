@@ -16,6 +16,6 @@ public class Student {
     private String id;
     private  String studentName;
     private  String gender;
-    private Phone phone;
-    private List<Book> bookList;
+    private com.yjzh.java.week2.book2.Phone phone;
+    private List<com.yjzh.java.week2.book2.Book> bookList;
 }

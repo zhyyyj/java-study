@@ -1,4 +1,4 @@
-package com.yjzh.java.week2;
+package com.yjzh.java.week2.book2;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
