@@ -1,11 +1,20 @@
 package com.yjzh.java.week3.cpu;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 /**
  * @ClassName Pc
  * @Description TODO
  * @Author WL
  * @Date 2020/10/14
  **/
+@Data
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
 public class Pc {
     private Cpu cpu;
     private HardDisk HD;
