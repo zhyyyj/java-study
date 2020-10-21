@@ -22,9 +22,9 @@ import java.awt.*;
 public class CircleApp {
     public static void main(String[] args) {
         Point point = new Point(10,20);
-        Circle circle = new Circle(10,20,5);
-        Cylinder cylinder = new Cylinder(10,10,6,6);
-        Point.
+        //Circle circle = new Circle(10,20,5);
+        //Cylinder cylinder = new Cylinder(10,10,6,6);
+        //Point.
     }
 }
 
