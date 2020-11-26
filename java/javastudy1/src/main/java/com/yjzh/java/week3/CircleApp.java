@@ -18,7 +18,7 @@ import java.awt.*;
 @Data
 @Builder
 @NoArgsConstructor
-@AllArgsConstructor
+
 public class CircleApp {
     public static void main(String[] args) {
         Point point = new Point(10,20);
